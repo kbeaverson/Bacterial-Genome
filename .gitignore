@@ -1,0 +1,8 @@
+data/train_test_data/train_kmers.npy
+data/train_test_data/train_genes.csv
+data/train_test_data/test_kmers.npy
+data/train_test_data/test_genes.csv
+data/train_genes.csv
+data/PATRIC_genomes_AMR.txt
+data/genome_summary
+data/gene_match_data.csv
