@@ -1,0 +1,24 @@
+name: etbg-env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas=2.2.1
+  - numpy=1.26.4
+  - scikit-learn=1.4
+  - scipy=1.12
+  - seaborn=0.13
+  - matplotlib=3.8
+  - ipykernel=6.29
+  - ipython=8.22
+  - jupyterlab=4.1
+  - keras=2.12
+  - tensorflow=2.12
+  - biopython=1.83
+  - bowtie2=2.5.4
+  - jellyfish=1.0
+  - samtools=1.20
+  - bayesian-optimization=1.4
+  - xgboost=2.0.3
