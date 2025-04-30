@@ -1,43 +1,9 @@
 Number of outer folds: 5
 Number of inner folds: 5
 Number of iterations: 10
-Pres/Abs performance: [[110.6   9. ]
- [  9.8  20.2]]
-Kmer performance: [[111.8   7.8]
- [  9.8  20.2]]
-========
-
-Number of outer folds: 5
-Number of inner folds: 10
-Number of iterations: 10
-Pres/Abs performance: [[113.4   6.2]
- [  8.2  21.8]]
-Kmer performance: [[112.4   7.2]
- [  9.6  20.4]]
-========
-
-Number of outer folds: 5
-Number of inner folds: 5
-Number of iterations: 10
-Pres/Abs balanced accuracy confidence interval: (0.749781993631961, 0.8727007139868153)
-Kmer balanced accuracy confidence interval: (0.7448318576072673, 0.8845287242057248)
-========
-
-Number of outer folds: 5
-Number of inner folds: 10
-Number of iterations: 10
-Pres/Abs balanced accuracy confidence interval: (0.7282276139000519, 0.8801660499382362)
-Pres/Abs runtime: 0:05:02.424420
-Kmer balanced accuracy confidence interval: (0.7518338785068966, 0.8544450899908894)
-Pres/Abs runtime: 0:04:59.905062
-========
-
-Number of outer folds: 10
-Number of inner folds: 10
-Number of iterations: 10
-Pres/Abs balanced accuracy confidence interval: (0.7465508600483479, 0.8678922488895375)
-Pres/Abs runtime: 0:11:15.004989
-Kmer balanced accuracy confidence interval: (0.7593788818786016, 0.8938948634527284)
-Pres/Abs runtime: 0:11:15.977713
+Pres/Abs balanced accuracy confidence interval: (0.7355268305233912, 0.8097402394445544)
+Pres/Abs runtime: 0:00:02.714398
+Kmer balanced accuracy confidence interval: (0.7686660315159483, 0.8792184306449983)
+Pres/Abs runtime: 0:02:29.652357
 ========
 

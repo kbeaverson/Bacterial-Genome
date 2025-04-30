@@ -18,7 +18,7 @@ import datetime
 seed = 73
 
 # Define kfold split variables here
-K = 10 
+K = 5
 n_iter = 10
 cv = 10
 
@@ -47,6 +47,7 @@ def load_data():
 
 train_pa_genes, test_pa_genes, train_kmers, test_kmers, y_train, y_train_ids, y_test_ids, train_gene_alignment = load_data()
 X_train_kmers, X_test_kmers = np.array(train_kmers), np.array(test_kmers)
+X_train_pa, X_test_pa = np.array(train_pa_genes), np.array(test_pa_genes)
 y_train = y_train.reshape(-1)
 
 print(y_train[0:10])
@@ -68,11 +69,11 @@ pa_model_performance = {}
 # Iterate through each fold, training models for each on presence/absence
 ###
 pa_start = datetime.datetime.now()
-for i, (train_index, val_index) in enumerate(kfold.split(train_pa_genes)):
+for i, (train_index, val_index) in enumerate(kfold.split(X_train_pa)):
     print(f"Starting outer fold {i}")
 
     # Grab the data for this fold
-    X_train_outer, X_val_outer, y_train_outer, y_val_outer = (X_train_kmers[train_index], X_train_kmers[val_index], y_train[train_index], y_train[val_index])
+    X_train_outer, X_val_outer, y_train_outer, y_val_outer = (X_train_pa[train_index], X_train_pa[val_index], y_train[train_index], y_train[val_index])
 
     print("Creating pres/abs random forest model")
     # Random forest model creation
