@@ -1,0 +1,10 @@
+Number of outer folds: 5
+Number of inner folds: 10
+Number of iterations: 50
+Min estimators: 1
+Max estimators: 50
+Balanced accuracy confidence interval: (0.6600679558294797, 0.8980132766635176)
+Runtime: 0:00:26.473840
+
+========
+

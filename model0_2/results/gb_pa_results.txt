@@ -1,0 +1,10 @@
+Number of outer folds: 3
+Number of inner folds: 3
+Number of iterations: 5
+Min estimators: 1
+Max estimators: 10
+Pres/Abs balanced accuracy confidence interval: (0.7920543058349716, 0.8363911328007756)
+Pres/Abs runtime: 0:00:00.395055
+
+========
+

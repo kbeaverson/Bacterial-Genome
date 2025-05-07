@@ -1,0 +1,60 @@
+Number of outer folds: 3
+Number of inner folds: 3
+Number of iterations: 5
+Min estimators: 1
+Max estimators: 10
+Balanced accuracy confidence interval: (0.7565707620783434, 0.8731361055933488)
+Runtime: 0:00:06.307197
+
+========
+
+Number of outer folds: 3
+Number of inner folds: 3
+Number of iterations: 5
+Min estimators: 1
+Max estimators: 10
+Balanced accuracy confidence interval: (0.7565707620783434, 0.8731361055933488)
+Runtime: 0:00:06.973353
+
+========
+
+Number of outer folds: 5
+Number of inner folds: 5
+Number of iterations: 5
+Min estimators: 1
+Max estimators: 10
+Balanced accuracy confidence interval: (0.7612446129041075, 0.8584472638465925)
+Runtime: 0:00:11.709294
+
+========
+
+Number of outer folds: 5
+Number of inner folds: 5
+Number of iterations: 5
+Min estimators: 1
+Max estimators: 50
+Balanced accuracy confidence interval: (0.7620066333813017, 0.8877552713806031)
+Runtime: 0:00:21.389696
+
+========
+
+Number of outer folds: 5
+Number of inner folds: 5
+Number of iterations: 10
+Min estimators: 1
+Max estimators: 50
+Balanced accuracy confidence interval: (0.766086336602702, 0.8769528790835726)
+Runtime: 0:00:29.732348
+
+========
+
+Number of outer folds: 5
+Number of inner folds: 10
+Number of iterations: 50
+Min estimators: 1
+Max estimators: 50
+Balanced accuracy confidence interval: (0.7502566030007083, 0.914449279352233)
+Runtime: 0:02:55.876951
+
+========
+

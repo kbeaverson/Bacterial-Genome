@@ -1,0 +1,24 @@
+Number of outer folds: 5
+Number of inner folds: 10
+Number of iterations: 10
+Min tree height: 1
+Max tree height: 10
+Min estimators: 1
+Max estimators: 20
+Balanced accuracy confidence interval: (0.7726877904035694, 0.8836987642182794)
+Runtime: 0:05:02.585453
+
+========
+
+Number of outer folds: 5
+Number of inner folds: 10
+Number of iterations: 20
+Min tree height: 1
+Max tree height: 10
+Min estimators: 1
+Max estimators: 50
+Balanced accuracy confidence interval: (0.7314660558796295, 0.9065451486021632)
+Runtime: 0:13:11.113905
+
+========
+
