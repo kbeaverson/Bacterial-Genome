@@ -1,5 +1,5 @@
 ### Exploring the Bacterial Genome with Data Science
-This repository my weekly workbooks and final model submission from a Build Project with the Open Avenues Foundation under the supervision of industry expert Hayden Samsun during the Spring of 2025.
+This repository contains my weekly workbooks and final model submission from a Build Project with the Open Avenues Foundation under the supervision of industry expert Hayden Samsun during the Spring of 2025.
 
 Within you can follow along with my weekly workbooks to see how we went about building predictive models for antibiotic (cefepime) resistance in *Escherichia coli*. This project represents my first foray into the world of predictive modeling and data analysis, preceding any formal learning in these methods/techniques, and my participation was driven by my curiosity and eagerness to learn more and familiarize myself with these topics. 
 
